@@ -1,0 +1,6 @@
+INSERT INTO `kategori` (`id`, `nama`) VALUES
+(1, 'Dewasa'),
+(2, 'Anak');
+
+INSERT INTO `kelompok` (`id`, `nama_kelompok`, `prodi`, `mata_kuliah`, `dosen`) VALUES
+(1,'(kelompok 5 )Muhammad Oscar Dzakwan(241220050),Faisal Gunawan(241220064),Muhamad Nabil Alfarizi(241220069),Mohamad Abrar Hafiz(241220058),Restu Riswar(241220065)', 'Teknik Informatika', 'Media Pembelajaran Agama', 'dedy Susanto, S.Pd.I.,M.M.');
