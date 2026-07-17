@@ -23,7 +23,9 @@ Tugas: Manajemen repositori GitHub, kontrol integrasi sistem, memastikan semua a
 
 2. Faisal Gunawan (Front end developer)
 
-Tugas: Mengatur konsep visual (Figma), menyusun struktur layouting utama di membuat desain tampilan yang responsif dan menarik (tema anak & dewasa) di style.css, serta menguji tampilan pada perangkat seluler.
+Tugas: Mengatur konsep visual (Figma)
+https://www.figma.com/design/35PjNPvd7YHKAMBiEO5l5h/Wireframe-Sholatku?node-id=0-1&t=IOVtO2DNyu2rVQLj-1
+menyusun struktur layouting utama di membuat desain tampilan yang responsif dan menarik (tema anak & dewasa) di style.css, serta menguji tampilan pada perangkat seluler.
 
 3. Muhamad Nabil Alfarizzi (Back-end Developer)
 
