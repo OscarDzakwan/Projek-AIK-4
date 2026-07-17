@@ -23,19 +23,19 @@ Tugas: Manajemen repositori GitHub, kontrol integrasi sistem, memastikan semua a
 
 2. Faisal Gunawan (Front end developer)
 
-Tugas: Mengatur konsep visual (Figma), menyusun struktur layouting utama di index.html, membuat desain tampilan yang responsif dan menarik (tema anak & dewasa) di style.css, serta menguji tampilan pada perangkat seluler.
+Tugas: Mengatur konsep visual (Figma), menyusun struktur layouting utama di membuat desain tampilan yang responsif dan menarik (tema anak & dewasa) di style.css, serta menguji tampilan pada perangkat seluler.
 
 3. Muhamad Nabil Alfarizzi (Back-end Developer)
 
-Tugas: Menangani pemrograman sisi server untuk menghubungkan database MySQL dengan web, menulis logika fungsional aplikasi pada script.js (pemutar audio/video dan perpindahan halaman), serta mengonstruksi penarikan data di data.js.
+Tugas: Menangani index.html dan pemrograman sisi server untuk menghubungkan database MySQL dengan web, menulis logika fungsional aplikasi pada script.js (pemutar audio/video dan perpindahan halaman), serta mengonstruksi penarikan data di data.js.
 
 4. Mohamad Abrar Hafiz (Database & Content Engineer)
 
-Tugas: Merancang arsitektur database relasional MySQL, menyusun isi file gerakan dan bacaan.sql serta kelompok dan kategori.sql, mengolah teks Arab (utf8mb4) beserta artinya, dan memastikan konten sesuai HPT Muhammadiyah.
+Tugas: Merancang arsitektur database relasional MySQL, menyusun isi file gerakan dan bacaan.sql serta kelompok dan kategori.sql, mengolah teks Arab (utf8mb4) beserta artinya, menyusun data.js, dan memastikan konten sesuai HPT Muhammadiyah.
 
 5. Restu Rizwar (QA, Multimedia & Deployment)
 
-Tugas: Mengurus seluruh aset multimedia di folder assets/ (melakukan cutting dan kompresi audio, pengelolaan aset images, dan optimasi video anak/dewasa), menguji kecocokan tombol/media player, serta menangani perilisan (deployment) web.
+Tugas: Mengurus seluruh aset multimedia di folder assets/ (melakukan cutting dan kompresi audio, pengelolaan aset images, dan optimasi video anak/dewasa), menguji kecocokan tombol/media player, serta menangani perilisan (deployment) web, dan membuat laporan.
 
 
 ## 🛠️ Fitur Utama Aplikasi
