@@ -23,7 +23,7 @@ Tugas: Manajemen repositori GitHub/GitLab, kontrol integrasi sistem (memastikan 
 
 2. Muhamad Nabil Alfarizzi (Frontend Developer & Client-Side Integrator)
 
-Tugas: Menuliskan keseluruhan baris kode aplikasi utama. Menyusun struktur semantik index.html, membuat presentasi layouting responsif dengan CSS Grid/Flexbox (bersama Faisal), mengembangkan skrip interaktivitas Javascript (media-player.js), serta menulis logika app.js untuk mengonsumsi dan menampilkan data dinamis dari MySQL (melalui Fetch API/lokal endpoint).
+Tugas: Menuliskan keseluruhan baris kode aplikasi utama. Menyusun struktur semantik index.html, membuat presentasi layouting responsif dengan CSS Grid/Flexbox (bersama Faisal), mengembangkan skrip interaktivitas Javascript (media-player.js), serta menulis logika app.js untuk mengonsumsi dan menampilkan data dinamis dari MySQL.
 
 3. Mohamad Abrar Hafiz (Database & Content Engineer)
 
