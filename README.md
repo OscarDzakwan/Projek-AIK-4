@@ -21,7 +21,7 @@ Berdasarkan keputusan internal tim, proses rekayasa sistem dibagi secara terstru
 
 Tugas: Manajemen repositori, kontrol integrasi sistem (menghubungkan frontend dan backend), penyusunan dokumentasi utama (README.md), dan koordinasi alur kerja tim.
 
-2. Faisal Gunawan (UI/UX Designer & Frontend Planner)
+2. Faisal Gunawan (Frontend )
 
 Tugas: Merancang kerangka user flow dan Figma, menyusun struktur index.html, membangun style dan layouting responsif pada style.css, serta melakukan pengujian kualitas tampilan pada perangkat seluler (mobile testing).
 
