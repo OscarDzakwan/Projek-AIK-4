@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sholatku — Belajar Sholat Sesuai Sunnah Rasulullah</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Amiri:wght@400;700&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body data-mode="dewasa">
+    <div class="infobar" id="infobar">
+      <span
+        ><strong>Kelompok:</strong> 5 (M.Oscar D, Faisal Gunawan, M.Nabil
+        Alfarizzi, M. Abrar Hafiz, Restu Riswar)</span
+      >
+      <span><strong>Prodi:</strong> Teknik Informatika</span>
+      <span
+        ><strong>Mata Kuliah:</strong> AIK 4 Islam Dan Ilmu Pengetahuan</span
+      >
+      <span><strong>Dosen:</strong> Dedi Susanto,S.Pd.I., M.M</span>
+    </div>
+
+    <section class="splash" id="splash">
+      <div class="splash-card">
+        <div class="splash-icon">🕌</div>
+        <h1 class="splash-title">SHOLATKU</h1>
+
+        <div class="splash-info">
+          <p>
+            <strong>Kelompok 5:</strong>
+            <span class="hl">Muhammad Oscar Dzakwan (241220050)</span><br />
+            <span class="hl">Faisal Gunawan (241220064)</span><br />
+            <span class="hl">Muhamad Nabil Alfarizzi (241220069)</span><br />
+            <span class="hl">Mohamad Abrar Hafiz (241220058)</span><br />
+            <span class="hl">Restu Riswar (241220065)</span>
+          </p>
+          <p>
+            <strong>Prodi:</strong> <span class="hl">Teknik Informatika</span>
+          </p>
+          <p><strong>Kelas:</strong> <span class="hl">38</span></p>
+          <p>
+            <strong>Mata Kuliah:</strong>
+            <span class="hl">AIK 4 Islam Dan Ilmu Komputer</span>
+          </p>
+          <p>
+            <strong>Dosen:</strong>
+            <span class="hl">Dedi Susanto,S.Pd.I., M.M</span>
+          </p>
+        </div>
+
+        <button class="splash-btn" id="splashBtn">MASUK</button>
+
+        <div class="splash-footer">Universitas Muhammadiyah Pontianak</div>
+      </div>
+
+      <div class="splash-credit">
+        Sholatku - Pengembangan Aplikasi Web - Universitas Muhammadiyah
+        Pontianak
+      </div>
+    </section>
+
+    <div class="app-wrapper" id="appWrapper">
+      <header class="topbar" id="mainTopbar">
+        <div class="topbar-inner">
+          <div class="brand">
+            <span class="brand-icon">🕌</span>
+            <span class="brand-name">SHOLATKU</span>
+          </div>
+          <nav class="main-nav">
+            <a href="#/" class="nav-link" data-route="/">Beranda</a>
+            <a href="#/gerakan" class="nav-link" data-route="/gerakan"
+              >Daftar Gerakan</a
+            >
+          </nav>
+          <div class="mode-switch">
+            <button class="mode-btn" id="modeBtn">
+              <span id="modeLabel">Dewasa</span>
+              <svg width="12" height="8" viewBox="0 0 12 8" fill="none">
+                <path
+                  d="M1 1L6 6L11 1"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </button>
+            <div class="mode-menu" id="modeMenu">
+              <button class="mode-option" data-mode="dewasa">Dewasa</button>
+              <button class="mode-option" data-mode="anak">Anak-anak</button>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main id="app"></main>
+
+      <footer class="site-footer">
+        Sholatku - Pengembangan Aplikasi Web - Universitas Muhammadiyah
+        Pontianak
+      </footer>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
