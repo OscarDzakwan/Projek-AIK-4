@@ -19,24 +19,23 @@ Berdasarkan keputusan internal tim, proses rekayasa sistem dibagi secara terstru
 ## Pembagian Tugas Tim Proyek (Edisi HTML, JS, CSS & MySQL)
 1. Muhammad Oscar Dzakwan (Project Manager)
 
-Tugas: Manajemen repositori GitHub/GitLab, kontrol integrasi sistem (memastikan penggabungan kode HTML/JS/CSS berjalan lancar), penyusunan dokumentasi utama (README.md), dan koordinasi alur kerja tim agar target selesai tepat waktu.
+Tugas: Manajemen repositori, kontrol integrasi sistem (menghubungkan frontend dan backend), penyusunan dokumentasi utama (README.md), dan koordinasi alur kerja tim.
 
-2. Muhamad Nabil Alfarizzi (Frontend Developer & Client-Side Integrator)
+2. Faisal Gunawan (UI/UX Designer & Frontend Planner)
 
-Tugas: Menuliskan keseluruhan baris kode aplikasi utama. Menyusun struktur semantik index.html, membuat presentasi layouting responsif dengan CSS Grid/Flexbox (bersama Faisal), mengembangkan skrip interaktivitas Javascript (media-player.js), serta menulis logika app.js untuk mengonsumsi dan menampilkan data dinamis dari MySQL.
+Tugas: Merancang kerangka user flow dan Figma, menyusun struktur index.html, membangun style dan layouting responsif pada style.css, serta melakukan pengujian kualitas tampilan pada perangkat seluler (mobile testing).
 
-3. Mohamad Abrar Hafiz (Database & Content Engineer)
+3. Muhamad Nabil Alfarizzi (Back-end Developer)
 
-Tugas: Merancang arsitektur database relasional MySQL (schema.sql), mengolah data tekstual Arab dengan konfigurasi charset utf8mb4 agar teks Arab tidak rusak, menyusun teks Latin/terjemahan, serta melakukan validasi konten keagamaan agar 100% sesuai dengan HPT Muhammadiyah (seeder.sql).
+Tugas: Membangun aplikasi server/API (menggunakan Node.js/Express atau sejenisnya) untuk menghubungkan web ke database MySQL, mengamankan query, menyediakan endpoint API data sholat dinamis, serta membantu integrasi fetch data di sisi frontend.
 
-4. Restu Rizwar (QA, Multimedia & Deployment)
+4. Mohamad Abrar Hafiz (Database & Content Engineer)
 
-Tugas: Melakukan kurasi, pemotongan (cutting), dan kompresi audio makhraj bacaan format MP3 agar ringan saat di-load, mengoptimasi gambar gerakan sholat, melakukan Quality Assurance (uji kelayakan aplikasi), serta menangani perilisan (deployment) aplikasi web ke server lokal atau hosting.
+Tugas: Merancang arsitektur database relasional MySQL (schema.sql), mengolah data teks Arab dengan charset utf8mb4, menyusun teks Latin/terjemahan, serta validasi konten keagamaan agar sesuai HPT Muhammadiyah (seeder.sql).
 
-5. Faisal Gunawan (UI/UX Designer & Frontend Planner)
+5. Restu Rizwar (QA, Multimedia & Deployment)
 
-Tugas: Merancang kerangka user flow dan konsep visual antarmuka (Figma/Wireframing), merancang aset visual dan berkontribusi dalam pembuatan style CSS, serta melakukan pengujian kualitas responsivitas pada berbagai perangkat seluler (mobile testing/responsive validation) di folder docs/.
-
+Tugas: Melakukan kurasi, pemotongan (cutting), dan kompresi audio MP3, mengoptimasi gambar gerakan sholat, melakukan pengujian fungsionalitas aplikasi (Quality Assurance), serta menangani perilisan (deployment) aplikasi web.
 ---
 
 ## 🛠️ Fitur Utama Aplikasi
