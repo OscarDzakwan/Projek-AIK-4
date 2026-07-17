@@ -42,20 +42,16 @@ Berdasarkan keputusan internal tim, proses rekayasa sistem dibagi secara terstru
 ```text
 tuntunan-sholat-aik/
 ├── assets/
-│   ├── css/          # File style.css responsif (Muhamad Nabil Alfarizzi)
-│   ├── js/           # Skrip media-player.js kontrol autoplay (Muhamad Nabil Alfarizzi)
-│   ├── img/          # Aset gambar panduan visual posisi tubuh (Restu rizwar)
-│   └── audio/        # Potongan audio bacaan shalat MP3 (Restu Rizwar)
-├── config/
-│   └── database.php  # Berkas koneksi MySQL PDO/MySQLi (Muhammad Nabil Alfarizzi)
-├── core/
-│   ├── PrayerController.php  # Logika pengambil data index shalat (Muhamad Nabil Alfarizzi)
-│   └── api.php               # Endpoint JSON data gerakan dinamis (Muhamad Nabil Alfarizzi)
+│   ├── css/
+│   │   └── style.css          # Desain responsif & layouting (Faisal Gunawan & Muhamad Nabil Alfarizzi)
+│   ├── js/
+│   │   ├── app.js             # Pengambil & pengolah data panduan sholat / pengganti Controller (Muhamad Nabil Alfarizzi)
+│   │   └── media-player.js    # Kontrol autoplay & pemutar audio bacaan (Muhamad Nabil Alfarizzi)
+│   ├── img/                   # Aset gambar posisi gerakan sholat (Restu Rizwar & Faisal Gunawan)
+│   └── audio/                 # Potongan file audio MP3 bacaan sholat (Restu Rizwar)
 ├── database/
-│   ├── schema.sql    # Struktur pembuatan tabel basis data (Abrar)
-│   └── seeder.sql    # Data teks HPT Muhammadiyah lengkap (Abrar)
-├── views/
-│   └── prayer-view.php # Halaman antarmuka utama aplikasi (Muhammad Nabil Alfarizzi)
-├── docs/             # Dokumentasi wireframe dan laporan uji mobile (Faisal Gunawan)
-├── index.php         # Entry point / routing utama sistem (Muhammad nabil alfarizzi)
-└── README.md         # File dokumentasi utama ini (Muhammad Oscar Dzakwan)
+│   ├── schema.sql             # Struktur tabel MySQL untuk data sholat (Abrar)
+│   └── seeder.sql             # Data teks HPT Muhammadiyah lengkap format SQL (Abrar)
+├── docs/                      # Link Figma, wireframe, dan laporan uji coba mobile (Faisal Gunawan)
+├── index.html                 # Antarmuka utama aplikasi / pengganti prayer-view.php (Muhammad Nabil Alfarizzi)
+└── README.md                  # Dokumentasi utama proyek (Muhammad Oscar Dzakwan)
