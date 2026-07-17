@@ -8,7 +8,7 @@ Aplikasi web interaktif pembelajaran tata cara shalat fardhu lima waktu (Subuh s
 ## 🏫 Identitas Akademik
 * **Mata Kuliah:** AIK 4 Islam dan Ilmu pengetahuan Pengembangan Aplikasi Web / Praktikum Pemrograman Web.
 * **Dosen Pengampu:** Dedy Susanto, S.Pd.I., M.M.
-* **Institusi:** Universitas Muhammadiyah Pontianak
+* **Institusi:** Universitas Muhammadiyah Pontianaknhg
 * **Tahun Akademik:** 2026
 
 ---
