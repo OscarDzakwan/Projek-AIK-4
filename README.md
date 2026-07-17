@@ -19,23 +19,23 @@ Berdasarkan keputusan internal tim, proses rekayasa sistem dibagi secara terstru
 ## Pembagian Tugas Tim Proyek (Edisi HTML, JS, CSS & MySQL)
 1. Muhammad Oscar Dzakwan (Project Manager)
 
-Tugas: Manajemen repositori, kontrol integrasi sistem (menghubungkan frontend dan backend), penyusunan dokumentasi utama (README.md), dan koordinasi alur kerja tim.
+Tugas: Manajemen repositori GitHub, kontrol integrasi sistem, memastikan semua aset masuk folder yang benar, menyusun dokumentasi proyek pada README.md, dan mengoordinasikan alur kerja tim.
 
-2. Faisal Gunawan (Frontend )
+2. Faisal Gunawan (Front end developer)
 
-Tugas: Merancang kerangka user flow dan Figma, menyusun struktur index.html, membangun style dan layouting responsif pada style.css, serta melakukan pengujian kualitas tampilan pada perangkat seluler (mobile testing).
+Tugas: Mengatur konsep visual (Figma), menyusun struktur layouting utama di index.html, membuat desain tampilan yang responsif dan menarik (tema anak & dewasa) di style.css, serta menguji tampilan pada perangkat seluler.
 
 3. Muhamad Nabil Alfarizzi (Back-end Developer)
 
-Tugas: Membangun aplikasi server/API (menggunakan Node.js/Express atau sejenisnya) untuk menghubungkan web ke database MySQL, mengamankan query, menyediakan endpoint API data sholat dinamis, serta membantu integrasi fetch data di sisi frontend.
+Tugas: Menangani pemrograman sisi server untuk menghubungkan database MySQL dengan web, menulis logika fungsional aplikasi pada script.js (pemutar audio/video dan perpindahan halaman), serta mengonstruksi penarikan data di data.js.
 
 4. Mohamad Abrar Hafiz (Database & Content Engineer)
 
-Tugas: Merancang arsitektur database relasional MySQL (schema.sql), mengolah data teks Arab dengan charset utf8mb4, menyusun teks Latin/terjemahan, serta validasi konten keagamaan agar sesuai HPT Muhammadiyah (seeder.sql).
+Tugas: Merancang arsitektur database relasional MySQL, menyusun isi file gerakan dan bacaan.sql serta kelompok dan kategori.sql, mengolah teks Arab (utf8mb4) beserta artinya, dan memastikan konten sesuai HPT Muhammadiyah.
 
 5. Restu Rizwar (QA, Multimedia & Deployment)
 
-Tugas: Melakukan kurasi, pemotongan (cutting), dan kompresi audio MP3, mengoptimasi gambar gerakan sholat, melakukan pengujian fungsionalitas aplikasi (Quality Assurance), serta menangani perilisan (deployment) aplikasi web.
+Tugas: Mengurus seluruh aset multimedia di folder assets/ (melakukan cutting dan kompresi audio, pengelolaan aset images, dan optimasi video anak/dewasa), menguji kecocokan tombol/media player, serta menangani perilisan (deployment) web.
 ---
 
 ## 🛠️ Fitur Utama Aplikasi
@@ -49,18 +49,28 @@ Tugas: Melakukan kurasi, pemotongan (cutting), dan kompresi audio MP3, mengoptim
 
 ## 📂 Struktur Direktori Proyek
 ```text
-tuntunan-sholat-aik/
+SHOLATKU/
 ├── assets/
-│   ├── css/
-│   │   └── style.css          # Desain responsif & layouting (Faisal Gunawan & Muhamad Nabil Alfarizzi)
-│   ├── js/
-│   │   ├── app.js             # Pengambil & pengolah data panduan sholat / pengganti Controller (Muhamad Nabil Alfarizzi)
-│   │   └── media-player.js    # Kontrol autoplay & pemutar audio bacaan (Muhamad Nabil Alfarizzi)
-│   ├── img/                   # Aset gambar posisi gerakan sholat (Restu Rizwar & Faisal Gunawan)
-│   └── audio/                 # Potongan file audio MP3 bacaan sholat (Restu Rizwar)
+│   ├── audio/
+│   │   ├── anak/               # Potongan audio bacaan sholat versi anak-anak
+│   │   └── dewasa/             # Potongan audio bacaan sholat versi dewasa
+│   ├── images/
+│   │   ├── anak/               # Gambar panduan gerakan sholat versi anak-anak
+│   │   └── dewasa/             # Gambar panduan gerakan sholat versi dewasa
+│   ├── Background beranda anak.png
+│   ├── Background_Beranda_Dewasa.png
+│   ├── Bersedekap anak beranda.png
+│   ├── Bersedekap beranda.png
+│   ├── Jendela Beranda Anak.png
+│   └── Jendela_Beranda_Dewasa.png
+│   └── video/
+│       ├── anak/               # Aset video gerakan sholat untuk anak-anak
+│       └── dewasa/             # Aset video gerakan sholat untuk dewasa
 ├── database/
-│   ├── schema.sql             # Struktur tabel MySQL untuk data sholat (Abrar)
-│   └── seeder.sql             # Data teks HPT Muhammadiyah lengkap format SQL (Abrar)
-├── docs/                      # Link Figma, wireframe, dan laporan uji coba mobile (Faisal Gunawan)
-├── index.html                 # Antarmuka utama aplikasi / pengganti prayer-view.php (Muhammad Nabil Alfarizzi)
-└── README.md                  # Dokumentasi utama proyek (Muhammad Oscar Dzakwan)
+│   ├── gerakan dan bacaan.sql  # Struktur & data teks gerakan serta bacaan sholat
+│   └── kelompok dan kategori.sql # Struktur & data pembagian kategori (anak/dewasa)
+├── data.js                     # Penghubung data dari MySQL ke tampilan web
+├── index.html                  # Halaman utama aplikasi (Antarmuka Utama)
+├── README.md                   # Dokumentasi proyek
+├── script.js                   # Logika jalannya aplikasi & kontrol media player
+└── style.css                   # Pengatur desain, tata letak, dan responsivitas web
