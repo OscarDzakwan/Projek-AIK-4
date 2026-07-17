@@ -32,9 +32,10 @@ menyusun struktur layouting utama di membuat desain tampilan yang responsif dan 
 Tugas: Menangani index.html dan pemrograman sisi server untuk menghubungkan database MySQL dengan web, menulis logika fungsional aplikasi pada script.js (pemutar audio/video dan perpindahan halaman), serta mengonstruksi penarikan data di data.js.
 catatan: Video tidak bisa di unggah karena file terlalu besar jadi kami meletakannya pada link drive berikut
 
-video solat anak:
+**video solat anak:**
 https://drive.google.com/drive/folders/1pwbFss3kuO6eH6ecLNa3EsRyhKcLVW6r?usp=sharing
-video solat dewasa:
+
+**video solat dewasa:**
 https://drive.google.com/drive/folders/1ZZP3Obc4HdGE3pLSvH8CS7Tz_rLkgmrg?usp=sharing
 
 4. Mohamad Abrar Hafiz (Database & Content Engineer)
