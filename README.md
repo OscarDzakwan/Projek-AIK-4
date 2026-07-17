@@ -13,7 +13,7 @@ Aplikasi web interaktif pembelajaran tata cara shalat fardhu lima waktu (Subuh s
 
 ---
 
-## 👥 Kelompok 4 - Anggota & Pembagian Peran
+## 👥 Kelompok 5 - Anggota & Pembagian Peran
 Berdasarkan keputusan internal tim, proses rekayasa sistem dibagi secara terstruktur sebagai berikut:
 
 1. **Muhammad Oscar Dzakwan (Project Manager)**
