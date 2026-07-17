@@ -36,7 +36,7 @@ Tugas: Merancang arsitektur database relasional MySQL, menyusun isi file gerakan
 5. Restu Rizwar (QA, Multimedia & Deployment)
 
 Tugas: Mengurus seluruh aset multimedia di folder assets/ (melakukan cutting dan kompresi audio, pengelolaan aset images, dan optimasi video anak/dewasa), menguji kecocokan tombol/media player, serta menangani perilisan (deployment) web.
----
+
 
 ## 🛠️ Fitur Utama Aplikasi
 * **Rujukan HPT Valid:** Seluruh bacaan bersumber dari dokumen resmi Majelis Tarjih Muhammadiyah.
